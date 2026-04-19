@@ -1,0 +1,26 @@
+{
+  "name": "davidjeddy/yii2-rss-reader",
+  "description": "RSS reader widget for Yii2",
+  "type": "library",
+  "keywords": ["yii2", "widget"," rss"],
+  "minimum-stability": "stable",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Maxim Tugaev",
+      "email": "tugmaks@yandex.ru"
+    },
+    {
+      "name": "David J Eddy",
+      "email": "me@davidjeddy.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "davidjeddy\\RssFeed\\": "./src"
+    }
+  }
+}
